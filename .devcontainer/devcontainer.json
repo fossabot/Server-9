@@ -11,7 +11,9 @@
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/zsh",
-		"stylelint.configBasedir": "Client"
+		"stylelint.configBasedir": "Client",
+		"omnisharp.enableRoslynAnalyzers": true,
+		"omnisharp.enableEditorConfigSupport": true
 	},
 	"runArgs": [
 		"--privileged"
